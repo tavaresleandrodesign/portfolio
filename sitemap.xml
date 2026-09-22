@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://leandrodesign.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://leandrodesign.com/sobre</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://leandrodesign.com/projects/afiliados-b2w</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://leandrodesign.com/projects/app-boost-finance</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://leandrodesign.com/projects/gamification-flourish-fi</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://leandrodesign.com/projects/creditas-auto</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>

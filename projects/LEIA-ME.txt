@@ -1,0 +1,49 @@
+Imagens da seção "Featured projects" e da página de detalhe
+(/projects/:slug).
+
+1) CAPA (card da home + topo da página de detalhe)
+
+    creditas-auto.jpg                Creditas Auto
+    app-boost-finance.jpg           APP Boost Finance
+    gamification-flourish-fi.jpg    Gamification Flourish Fi
+    afiliados-b2w.webp              Afiliados B2W
+
+FORMATO: 4:3 horizontal no card da home; 16:9 na página de
+detalhe (mesma imagem, cortada de forma diferente via
+object-fit: cover em cada lugar).
+
+TAMANHO: 1600x1200 px. PESO: até ~400KB (JPG, qualidade 80).
+
+2) O PROJETO (seção "O Projeto" na página de detalhe de cada projeto)
+
+Cada projeto tem 4 espaços de imagem grandes (mesmo tamanho da
+capa: 16:9, largura total), em uma subpasta com o slug do
+projeto:
+
+    projects/creditas-auto/1.jpg               até  4.jpg
+    projects/app-boost-finance/1.jpg          até  4.jpg
+    projects/gamification-flourish-fi/1.jpg   até  4.jpg
+    projects/afiliados-b2w/1.jpg              até  4.jpg
+
+FORMATO: 16:9 horizontal, mesmo peso da capa (~400KB, JPG
+qualidade 80). Sugestão de tamanho: 1920x1080 px.
+
+3) RESULTADO DO NPS (só no projeto Afiliados B2W — os outros
+não têm essa seção)
+
+Cada ocorrência da seção "Resultado do NPS" mostra uma imagem
+(print da pesquisa/dashboard) em vez de números calculados:
+
+    projects/<slug>/nps-antes.jpg    (resultado inicial)
+    projects/<slug>/nps-depois.jpg   (resultado final)
+
+Mesmo formato/peso das imagens de "O Projeto" (16:9).
+
+---
+
+Enquanto um arquivo não existir (capa, "O Projeto" ou NPS),
+aparece um placeholder tracejado "Imagem em breve" no lugar dele.
+
+Para mudar nomes, títulos, proporção ou o conteúdo da página
+de detalhe (papel, cliente, ano, sobre, processo, conclusão,
+etc.), edite PROJECTS em src/lib/projects.ts.

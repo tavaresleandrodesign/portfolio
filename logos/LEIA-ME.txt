@@ -1,0 +1,11 @@
+Logos das empresas na seção "Experiências profissionais" da home.
+Nomes exatos esperados:
+
+    telefonica-vivo.png
+    cvc-corp.png
+    flourish-fi.png
+
+PNG com fundo transparente, quadrado, 200x200 ou maior.
+Enquanto o arquivo não existir, aparece a sigla (TV, CVC, FF).
+Para mudar nomes/caminhos ou trocar as empresas exibidas, edite JOBS em
+src/components/Experience.tsx.

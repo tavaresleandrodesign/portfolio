@@ -1,0 +1,16 @@
+Foto de perfil da Hero (topo da home).
+
+    hero/foto.jpg
+
+FORMATO: retrato, de preferência 4:5 ou 1:1 (a moldura é
+circular, então o centro da foto é o que mais importa — evite
+cortar o rosto perto das bordas).
+
+TAMANHO: pelo menos 800x1000 px. PESO: até ~500KB (JPG,
+qualidade 80).
+
+Enquanto o arquivo não existir, aparece um placeholder circular
+"Foto em breve" no lugar dela.
+
+Para trocar o caminho/nome, edite HERO_PHOTO_SRC em
+src/components/Hero.tsx.

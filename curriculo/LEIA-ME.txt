@@ -1,0 +1,10 @@
+Currículo em PDF, baixado pelo botão "Baixar currículo" na
+página /sobre.
+
+    curriculo/leandro-tavares-cv.pdf
+
+Coloque aqui o arquivo com esse nome (ou ajuste o caminho em
+CV_PATH em src/pages/About.tsx).
+
+Enquanto o arquivo não existir, o botão aparece normalmente mas
+o download falha (404) ao ser clicado.
